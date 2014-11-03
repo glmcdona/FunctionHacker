@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextCode.Text" xml:space="preserve">
+    <value>// -------------------------------------------
+// --- EXPORTED FUNCTION BY FUNCTION HACKER
+// -------------------------------------------
+// webpage: www.split-code.com
+// by Geoff McDonald and Zelimir Bozic
+// -------------------------------------------
+//
+// Example usage of this class to send a function call:
+// 
+//using System;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Data;
+//using System.Diagnostics;
+//using System.Drawing;
+//using System.Linq;
+//using System.Text;
+//using System.Windows.Forms;
+//using exportedFunctions;
+// 
+//namespace WindowsFormsApplication1
+//{
+//    public partial class Form1 : Form
+//    {
+//        public Form1()
+//        {
+//            InitializeComponent();
+//        }
+//
+//        private void button1_Click(object sender, EventArgs e)
+//        {
+//            // Find the process
+//            Process[] processes = Process.GetProcessesByName("#PROCESSNAME#");
+//
+//            if(processes.Count() &gt; 0)
+//            {
+//                // Send the function call to the first process by this name
+//
+//                // Create the function
+//                function_#FUNCTIONNAME# function = new function_#FUNCTIONNAME#(processes[0]);
+//
+//                // Send a call to the function with arguments:
+//                //   ecx = 0
+//                //   edx = 1
+//                //   eax = 2
+//                //   arg1 = 3
+//                //   arg2 = 4
+//                //   arg3 = 5
+//                function.sendCall(processes[0], 0, 1, 2, new uint[] {3, 4, 5});
+//            }
+//        }
+//    }
+//}
+//
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Globalization;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+
+namespace exportedFunctions
+{
+    public struct CALL_RESULT
+    {
+        private uint returnValue;
+    }
+
+    public class function_#FUNCTIONNAME#
+    {
+        private uint functionAddress = 0;
+        private static string callSetupCode = "#CALLCODE#";
+
+        /// &lt;summary&gt;
+        /// Initializes the function
+        /// &lt;/summary&gt;
+        /// &lt;param name="process"&gt;&lt;/param&gt;
+        public function_#FUNCTIONNAME#Process process)
+        {
+            // First make sure the process is correct
+            if( process.MainModule.ModuleName != "#MAINMODULENAME#" )
+            {
+                MessageBox.Show(
+                    "WARNING: Attached to a different process than the process where the function was exported from.", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            // First find the address of the function
+            string moduleName = "#MODULENAME#";
+
+            foreach( ProcessModule module in process.Modules)
+            {
+                if( module.ModuleName == moduleName )
+                {
+                    // We found the module the function resides in, now lets calculate the function address
+                    functionAddress = (uint) module.BaseAddress + 0x1000;
+                    break;
+                }
+            }
+            if( functionAddress == 0 )
+            {
+                MessageBox.Show(
+                    "ERROR: Failed to find module " + moduleName + " in target process.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        public CALL_RESULT sendCall(Process process, uint ecx, uint edx, uint eax, uint[] stackArguments)
+        {
+            if( functionAddress &gt; 0 )
+            {
+                if (stackArguments.Length == 3)
+                {
+                    // Send the funciton call to #FUNCTIONNAME#
+
+                    // First replace the register arguments in the code
+                    string code = callSetupCode;
+                    code.Replace("#ECX#", toStringArg(ecx))
+                        .Replace("#EDX#", toStringArg(edx))
+                        .Replace("#EAX#", toStringArg(eax));
+
+                    // Now replace the stack arguments in the code
+                    for( int i = 1; i &lt;= stackArguments.Count(); i++ )
+                    {
+                        code.Replace("#STACKARG" + i.ToString() + "#", toStringArg(stackArguments[i-1]));
+                    }
+
+                    // Now set the function address in the code
+                    code.Replace("#FUNCTION#", toStringArg(functionAddress));
+
+                    // Convert the code to a binary string
+                    byte[] codeBytes = hexStringToByteArray(code);
+
+                    // Allocate room for this code in the target process
+                    uint allocationAddress = (uint) VirtualAllocEx(process.Handle,
+                                                                   (IntPtr) 0,
+                                                                   codeBytes.Length,
+                                                                   (uint) (MEMORY_STATE.COMMIT),
+                                                                   (uint) MEMORY_PROTECT.PAGE_EXECUTE_READWRITE);
+
+                    
+                    if( allocationAddress != 0 )
+                    {
+                        // Inject the code
+                        if( writeMemoryByteArray(process, allocationAddress, codeBytes) )
+                        {
+                            // Create the remote thread to call the function
+                            int threadHandle = createThread(process, allocationAddress);
+                            if( threadHandle != 0 )
+                            {
+                                // Created the thread successfully, wait for it to finish
+                                Thread.Sleep(10); // TODO: FIX THIS TO WAIT FOR THREAD TO TERMINATE PROPERLY
+                            }
+                        }
+
+                        // Clean up the allocated space - only after the function returned
+                        VirtualFreeEx(process.Handle, (IntPtr)allocationAddress, codeBytes.Length,
+                                      (int)MEMORY_PROTECT.PAGE_EXECUTE_READWRITE);
+                    }
+
+
+                }else
+                {
+                    MessageBox.Show("ERROR: This call must have " + 3.ToString() + " stack arguments.", "ERROR",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            return new CALL_RESULT();
+        }
+
+
+
+        /// &lt;summary&gt;
+        /// Converts a uint value to a hex-reversed 8 character string.
+        /// &lt;/summary&gt;
+        /// &lt;param name="value"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        private static string toStringArg(uint value)
+        {
+            // Convert it to an 4-byte string
+            string result = value.ToString("X");
+            while( result.Length &lt; 8 )
+                result = "0" + result;
+
+            // Reverse the string
+            return reverseString(result);
+        }
+
+        /// &lt;summary&gt;
+        /// Reverses the input in byte pairs.
+        /// &lt;/summary&gt;
+        /// &lt;param name="input"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        private static string reverseString(string input)
+        {
+            // Reverses the input string
+            string result = "";
+            for (int i = 0; i &lt; input.Length; i += 2)
+                result = String.Concat(input[i], input[i + 1], result);
+            return result;
+        }
+
+        /// &lt;summary&gt;
+        /// Convert a string-hex string to a byte array
+        /// &lt;/summary&gt;
+        /// &lt;param name="text"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static byte[] hexStringToByteArray(string text)
+        {
+            string tmpText = text.Replace(" ", "").ToLower();
+            if ((tmpText.Length % 2) != 0 || tmpText.Length == 0)
+                return null;
+
+            // Parse the hex string
+            byte[] result = new byte[tmpText.Length / 2];
+            for (int i = 0; i &lt; tmpText.Length - 1; i += 2)
+            {
+                if (!byte.TryParse(tmpText.Substring(i, 2), NumberStyles.HexNumber, null, out result[i / 2]))
+                    return null;
+            }
+            return result;
+        }
+
+        /// &lt;summary&gt;
+        /// Writes the specified byte array to the specified address.
+        /// &lt;/summary&gt;
+        /// &lt;param name="process"&gt;&lt;/param&gt;
+        /// &lt;param name="address"&gt;&lt;/param&gt;
+        /// &lt;param name="data"&gt;&lt;/param&gt;
+        public static bool writeMemoryByteArray(Process process, uint address, byte[] data)
+        {
+            // Write the array
+            IntPtr numWritten = (IntPtr)0;
+            WriteProcessMemory(process.Handle, (IntPtr)address, data, (IntPtr)data.Length, out numWritten);
+
+            // Check that all the data was read correctly
+            if ((int)numWritten != data.Length)
+                return false;
+            return true;
+        }
+
+        /// &lt;summary&gt;
+        /// Creates a remote thread in the process starting at the specified address
+        /// &lt;/summary&gt;
+        /// &lt;param name="process"&gt;&lt;/param&gt;
+        /// &lt;param name="address"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static int createThread(Process process, ulong address)
+        {
+            uint threadIdentifier;
+            return (int) CreateRemoteThread(process.Handle, (IntPtr)null, 10000, (IntPtr)address, (IntPtr)null, 0, out threadIdentifier);
+        }
+
+        [DllImport("kernel32")]
+        public static extern bool WriteProcessMemory(
+            IntPtr hProcess,
+            IntPtr lpBaseAddress,
+            byte[] lpBuffer,
+            IntPtr nSize,
+            out IntPtr lpNumberOfBytesWritten
+        );
+
+        [DllImport("kernel32")]
+        public static extern IntPtr VirtualAllocEx(IntPtr hProcess, IntPtr lpAddress, int dwSize, uint flAllocationType, uint flProtect);
+
+        [Flags]
+        public enum MEMORY_STATE : int
+        {
+            COMMIT = 0x1000,
+            FREE = 0x10000,
+            RESERVE = 0x2000
+        }
+
+        [DllImport("kernel32.dll", SetLastError = true, ExactSpelling = true)]
+        public static extern bool VirtualFreeEx(IntPtr hProcess, IntPtr lpAddress,
+           int dwSize, int dwFreeType);
+
+        [DllImport("kernel32")]
+        public static extern IntPtr CreateRemoteThread(
+          IntPtr hProcess,
+          IntPtr lpThreadAttributes,
+          uint dwStackSize,
+          IntPtr lpStartAddress, // raw Pointer into remote process
+          IntPtr lpParameter,
+          uint dwCreationFlags,
+          out uint lpThreadId
+        );
+
+        [Flags]
+        public enum MEMORY_TYPE : int
+        {
+            IMAGE = 0x1000000,
+            MAPPED = 0x40000,
+            PRIVATE = 0x20000
+        }
+
+        [Flags]
+        public enum MEMORY_PROTECT : int
+        {
+            PAGE_UNKNOWN = 0x0,
+            PAGE_EXECUTE = 0x10,
+            PAGE_EXECUTE_READ = 0x20,
+            PAGE_EXECUTE_READWRITE = 0x40,
+            PAGE_EXECUTE_WRITECOPY = 0x80,
+            PAGE_NOACCESS = 0x01,
+            PAGE_READONLY = 0x02,
+            PAGE_READWRITE = 0x04,
+            PAGE_WRITECOPY = 0x08,
+            PAGE_GUARD = 0x100,
+            PAGE_NOCACHE = 0x200,
+            PAGE_WRITECOMBINE = 0x400
+        }
+    }
+
+}
+</value>
+  </data>
+  <data name="txtCSharpCode.Text" xml:space="preserve">
+    <value>// ----------------------------------------------------------------------
+// --- EXPORTED FUNCTION BY FUNCTION HACKER
+// ----------------------------------------------------------------------
+// webpage: http://www.split-code.com/
+// by Geoff McDonald and Zelimir Bozic
+// -------------------------------------------
+//
+// Example usage of this class to send a function call:
+// 
+//using System;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Data;
+//using System.Diagnostics;
+//using System.Drawing;
+//using System.Linq;
+//using System.Text;
+//using System.Windows.Forms;
+//using exportedFunctions;
+//using System.Diagnostics;
+// 
+//namespace WindowsFormsApplication1
+//{
+//    public partial class Form1 : Form
+//    {
+//        public Form1()
+//        {
+//            InitializeComponent();
+//        }
+//
+//        private void button1_Click(object sender, EventArgs e)
+//        {
+//            // Find the process
+//            Process[] processes = Process.GetProcessesByName("#PROCESSNAME#");
+//
+//            if(processes.Count() &gt; 0)
+//            {
+//                // Send the function call to the first process by this name
+//
+//                // Create the function
+//                function_#FUNCTIONNAME# function = new function_#FUNCTIONNAME#(processes[0]);
+//
+//                // Send a call to the function with arguments:
+//                //   ecx = 0
+//                //   edx = 1
+//                //   eax = 2
+//                //   arg1 = 3
+//                //   arg2 = 4
+//                //   arg3 = 5
+//                function.sendCall(processes[0], 0, 1, 2, new uint[] {3, 4, 5});
+//            }
+//        }
+//    }
+//}
+//
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Globalization;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+
+namespace exportedFunctions
+{
+    public struct CALL_RESULT
+    {
+        private uint returnValue;
+    }
+
+    public class function_#FUNCTIONNAME#
+    {
+        private uint functionAddress = 0;
+        private static string callSetupCode = "#CALLCODE#";
+
+        /// &lt;summary&gt;
+        /// Initializes the function
+        /// &lt;/summary&gt;
+        /// &lt;param name="process"&gt;&lt;/param&gt;
+        public function_#FUNCTIONNAME#(Process process)
+        {
+            // First find the address of the function
+            string moduleName = "#MODULENAME#";
+
+            foreach( ProcessModule module in process.Modules)
+            {
+                if( module.ModuleName == moduleName )
+                {
+                    // We found the module the function resides in, now lets calculate the function address
+                    functionAddress = (uint) module.BaseAddress + #FUNCTIONOFFSET#;
+                    break;
+                }
+            }
+            if( functionAddress == 0 )
+            {
+                MessageBox.Show(
+                    "ERROR: Failed to find module " + moduleName + " in target process.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        
+        public CALL_RESULT sendCall(Process process, uint ecx, uint edx, uint eax, uint[] stackArguments)
+        {
+            if( functionAddress &gt; 0 )
+            {
+                if (stackArguments.Length == 3)
+                {
+                    // Send the funciton call to #FUNCTIONNAME#
+
+                    // First replace the register arguments in the code
+                    string code = callSetupCode;
+                    code = code.Replace("#_ECX__#", toStringArg(ecx))
+                               .Replace("#_EDX__#", toStringArg(edx))
+                               .Replace("#_EAX__#", toStringArg(eax));
+
+                    // Now replace the stack arguments in the code
+                    for( int i = 1; i &lt;= stackArguments.Count(); i++ )
+                    {
+                        string argNum = i.ToString();
+                        while( argNum.Length &lt; 2 )
+                            argNum = "0" + argNum;
+                        code = code.Replace("#ARGN" + argNum + "#", toStringArg(stackArguments[i-1]));
+                    }
+
+                    // Now set the function address in the code
+                    code = code.Replace("#FUNCTION#", toStringArg(functionAddress));
+
+                    // Convert the code to a binary string
+                    byte[] codeBytes = hexStringToByteArray(code);
+
+                    // Allocate room for this code in the target process
+                    uint allocationAddress = (uint) VirtualAllocEx(process.Handle,
+                                                                   (IntPtr) 0,
+                                                                   codeBytes.Length,
+                                                                   (uint) (MEMORY_STATE.COMMIT),
+                                                                   (uint) MEMORY_PROTECT.PAGE_EXECUTE_READWRITE);
+
+                    
+                    if( allocationAddress != 0 )
+                    {
+                        // Inject the code
+                        if( writeMemoryByteArray(process, allocationAddress, codeBytes) )
+                        {
+                            // Create the remote thread to call the function
+                            int threadHandle = createThread(process, allocationAddress);
+                            if( threadHandle != 0 )
+                            {
+                                // Created the thread successfully, wait for it to finish
+                                //Thread.Sleep(10); // TODO: FIX THIS TO WAIT FOR THREAD TO TERMINATE PROPERLY
+                            }
+                        }
+
+                        // Clean up the allocated space - only after the function returned
+                        //VirtualFreeEx(process.Handle, (IntPtr)allocationAddress, codeBytes.Length,
+                        //              (int)MEMORY_PROTECT.PAGE_EXECUTE_READWRITE);
+                    }
+
+
+                }else
+                {
+                    MessageBox.Show("ERROR: This call must have " + 3.ToString() + " stack arguments.", "ERROR",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            return new CALL_RESULT();
+        }
+
+
+
+        /// &lt;summary&gt;
+        /// Converts a uint value to a hex-reversed 8 character string.
+        /// &lt;/summary&gt;
+        /// &lt;param name="value"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        private static string toStringArg(uint value)
+        {
+            // Convert it to an 4-byte string
+            string result = value.ToString("X");
+            while( result.Length &lt; 8 )
+                result = "0" + result;
+
+            // Reverse the string
+            return reverseString(result);
+        }
+
+        /// &lt;summary&gt;
+        /// Reverses the input in byte pairs.
+        /// &lt;/summary&gt;
+        /// &lt;param name="input"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        private static string reverseString(string input)
+        {
+            // Reverses the input string
+            string result = "";
+            for (int i = 0; i &lt; input.Length; i += 2)
+                result = String.Concat(input[i], input[i + 1], result);
+            return result;
+        }
+
+        /// &lt;summary&gt;
+        /// Convert a string-hex string to a byte array
+        /// &lt;/summary&gt;
+        /// &lt;param name="text"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static byte[] hexStringToByteArray(string text)
+        {
+            string tmpText = text.Replace(" ", "").ToLower();
+            if ((tmpText.Length % 2) != 0 || tmpText.Length == 0)
+                return null;
+
+            // Parse the hex string
+            byte[] result = new byte[tmpText.Length / 2];
+            for (int i = 0; i &lt; tmpText.Length - 1; i += 2)
+            {
+                if (!byte.TryParse(tmpText.Substring(i, 2), NumberStyles.HexNumber, null, out result[i / 2]))
+                    return null;
+            }
+            return result;
+        }
+
+        /// &lt;summary&gt;
+        /// Writes the specified byte array to the specified address.
+        /// &lt;/summary&gt;
+        /// &lt;param name="process"&gt;&lt;/param&gt;
+        /// &lt;param name="address"&gt;&lt;/param&gt;
+        /// &lt;param name="data"&gt;&lt;/param&gt;
+        public static bool writeMemoryByteArray(Process process, uint address, byte[] data)
+        {
+            // Write the array
+            IntPtr numWritten = (IntPtr)0;
+            WriteProcessMemory(process.Handle, (IntPtr)address, data, (IntPtr)data.Length, out numWritten);
+
+            // Check that all the data was read correctly
+            if ((int)numWritten != data.Length)
+                return false;
+            return true;
+        }
+
+        /// &lt;summary&gt;
+        /// Creates a remote thread in the process starting at the specified address
+        /// &lt;/summary&gt;
+        /// &lt;param name="process"&gt;&lt;/param&gt;
+        /// &lt;param name="address"&gt;&lt;/param&gt;
+        /// &lt;returns&gt;&lt;/returns&gt;
+        public static int createThread(Process process, ulong address)
+        {
+            uint threadIdentifier;
+            return (int) CreateRemoteThread(process.Handle, (IntPtr)null, 10000, (IntPtr)address, (IntPtr)null, 0, out threadIdentifier);
+        }
+
+        [DllImport("kernel32")]
+        public static extern bool WriteProcessMemory(
+            IntPtr hProcess,
+            IntPtr lpBaseAddress,
+            byte[] lpBuffer,
+            IntPtr nSize,
+            out IntPtr lpNumberOfBytesWritten
+        );
+
+        [DllImport("kernel32")]
+        public static extern IntPtr VirtualAllocEx(IntPtr hProcess, IntPtr lpAddress, int dwSize, uint flAllocationType, uint flProtect);
+
+        [Flags]
+        public enum MEMORY_STATE : int
+        {
+            COMMIT = 0x1000,
+            FREE = 0x10000,
+            RESERVE = 0x2000
+        }
+
+        [DllImport("kernel32.dll", SetLastError = true, ExactSpelling = true)]
+        public static extern bool VirtualFreeEx(IntPtr hProcess, IntPtr lpAddress,
+           int dwSize, int dwFreeType);
+
+        [DllImport("kernel32")]
+        public static extern IntPtr CreateRemoteThread(
+          IntPtr hProcess,
+          IntPtr lpThreadAttributes,
+          uint dwStackSize,
+          IntPtr lpStartAddress, // raw Pointer into remote process
+          IntPtr lpParameter,
+          uint dwCreationFlags,
+          out uint lpThreadId
+        );
+
+        [Flags]
+        public enum MEMORY_TYPE : int
+        {
+            IMAGE = 0x1000000,
+            MAPPED = 0x40000,
+            PRIVATE = 0x20000
+        }
+
+        [Flags]
+        public enum MEMORY_PROTECT : int
+        {
+            PAGE_UNKNOWN = 0x0,
+            PAGE_EXECUTE = 0x10,
+            PAGE_EXECUTE_READ = 0x20,
+            PAGE_EXECUTE_READWRITE = 0x40,
+            PAGE_EXECUTE_WRITECOPY = 0x80,
+            PAGE_NOACCESS = 0x01,
+            PAGE_READONLY = 0x02,
+            PAGE_READWRITE = 0x04,
+            PAGE_WRITECOPY = 0x08,
+            PAGE_GUARD = 0x100,
+            PAGE_NOCACHE = 0x200,
+            PAGE_WRITECOMBINE = 0x400
+        }
+    }
+
+}</value>
+  </data>
+</root>

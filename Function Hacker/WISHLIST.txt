@@ -1,0 +1,11 @@
+- IDA importing symbols
+- Export symbols to .map file
+- Parameter dereferencing
+- Save/load function lists
+- Import IDA function MD5 lists
+
+
+TODO:
+- Add argument names
+- Arguments with struct type. Needs to be intertwined with code-injectiosn to dereference pointers.
+
